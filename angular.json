@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/swiftport-landing-page",
+            "outputPath": "dist/petrotask",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "swiftport-landing-page:build:production"
+              "buildTarget": "petrotask:build:production"
             },
             "development": {
-              "buildTarget": "swiftport-landing-page:build:development"
+              "buildTarget": "petrotask:build:development"
             }
           },
           "defaultConfiguration": "development"
