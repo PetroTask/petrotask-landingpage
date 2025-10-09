@@ -1,0 +1,188 @@
+{
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Write your message...",
+    "send": "Submit",
+    "us": "Get in contact with us",
+    "text": "You can also get in touch with us through our social media, email, or phone number. We will be happy to answer all your inquiries and provide you with the assistance you need."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "q1": {
+        "question": "What types of companies can use PetroTask?",
+        "answer": "PetroTask is designed for any company operating in the port sector, from small shipping companies to large logistics operators."
+      },
+      "q2": {
+        "question": "How long does implementation take?",
+        "answer": "Basic implementation can be completed in as little as 2 weeks, depending on the complexity of your operation."
+      },
+      "q3": {
+        "question": "Do you offer technical support?",
+        "answer": "Yes, we offer 24/7 technical support and team training."
+      },
+      "q4": {
+        "question": "Do you offer integrations with other systems?",
+        "answer": "Yes, PetroTask integrates with major ERP, CRM, and warehouse management systems through APIs. We also offer custom integrations for proprietary systems."
+      },
+      "q5": {
+        "question": "How do I get started with PetroTask?",
+        "answer": "You can deploy a functional pilot in less than 2 weeks and start gathering data from your operations within the first month."
+      }
+    }
+  },
+  "footer": {
+    "links": "Links",
+    "us": "About us",
+    "functions": "Functions",
+    "benefits": "Benefits",
+    "how": "How does it work?",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "email": "Email: ",
+    "telf": "Phone number: ",
+    "follow": "Follow us",
+    "solution": "Your fast, simple, and efficient logistics solution."
+  },
+  "functions": {
+    "title": "PetroTask Functionalities",
+    "subtitle": "Powerful solutions to optimize your logistics operations",
+    "list": {
+      "item1": {
+        "title": "Smart Planning",
+        "description": "Create tasks, define phases, and group activities."
+      },
+      "item2": {
+        "title": "Effective Assignment",
+        "description": "Distribute tasks based on real availability of staff and resources."
+      },
+      "item3": {
+        "title": "Real-time Monitoring",
+        "description": "GPS tracking and integration with weather or failure alerts."
+      },
+      "item4": {
+        "title": "Rescheduling",
+        "description": "Allows modifying schedules and logistic tasks in real time."
+      },
+      "item5": {
+        "title": "Incident Management",
+        "description": "Direct reports from the field with validation and assignment options."
+      },
+      "item6": {
+        "title": "Performance Visibility",
+        "description": "Visibility of tasks, blockages, downtime, and compliance."
+      },
+      "item7": {
+        "title": "Operational Flexibility",
+        "description": "Requests for rescheduling and status updates on site."
+      }
+    }
+  },
+  "header": {
+    "start": "Start",
+    "what": "What's PetroTask",
+    "functions": "Functionalities",
+    "plans": "Plans",
+    "login": "Login",
+    "register": "Register"
+  },
+  "how": {
+    "title": "How does PetroTask work?",
+    "steps": {
+      "step1": {
+        "title": "Step 1",
+        "description": "The supervisor creates tasks and work phases."
+      },
+      "step2": {
+        "title": "Step 2",
+        "description": "Resources are assigned based on field availability."
+      },
+      "step3": {
+        "title": "Step 3",
+        "description": "Operators receive notifications and execute tasks."
+      },
+      "step4": {
+        "title": "Step 4",
+        "description": "If there are delays or blockages, they can report in real-time."
+      },
+      "step5": {
+        "title": "Step 5",
+        "description": "The supervisor validates, reschedules, or reassigns based on the environment."
+      }
+    }
+  },
+  "presentation": {
+    "callToAction": "Transform Your Logistics Operations with Smart Technology",
+    "demoButton": "Start Free Trial",
+    "tagline": "The Future of Logistics Management",
+    "description": "Streamline your operations with real-time tracking, predictive analytics, and intelligent automation. Experience the power of next-generation logistics management.",
+    "subDescription": "Trusted by leading companies in mining, oil, and energy sectors"
+  },
+  "pricing": {
+    "title": "Choose your plan",
+    "subtitle": "The best plans at the best price",
+    "plans": {
+      "basic": {
+        "title": "Basic Plan",
+        "features": {
+          "f1": "Up to 50 tasks/month",
+          "f2": "Limited reports",
+          "f3": "1 supervisor user",
+          "f4": "Support"
+        },
+        "price": "$50"
+      },
+      "pro": {
+        "title": "Pro Plan",
+        "features": {
+          "f1": "Up to 500 tasks/month",
+          "f2": "Limited reports",
+          "f3": "2 supervisor users",
+          "f4": "Support"
+        },
+        "price": "$100"
+      },
+      "enterprise": {
+        "title": "Enterprise Plan",
+        "features": {
+          "f1": "Unlimited tasks",
+          "f2": "ERP integration",
+          "f3": "Unlimited users",
+          "f4": "Priority support"
+        },
+        "price": "$250"
+      }
+    }
+  },
+  "what": {
+    "title": "Why was PetroTask created?",
+    "text1": "PetroTask is a comprehensive digital transformation solution designed to optimize the planning, coordination, and supervision of logistics processes in operational areas that are difficult to access or highly complex, such as oil fields, mining operations, or remote energy facilities.",
+    "text2": "Through the PetroTask platform, companies can centrally manage all logistics tasks: from creating and assigning activities to monitoring them in the field. This tool combines intuitive interfaces with technologies such as simulated IoT, real-time monitoring, and collaborative dashboards, providing complete visibility of the operation."
+  },
+  "why": {
+    "title": "What is PetroTask?",
+    "text1": "Industries operating in remote areas, such as mining, oil, or energy, face a series of complex logistical challenges on a daily basis. Hostile and unpredictable environments, changing weather conditions, technical equipment prone to failures, and the constant turnover of personnel make maintaining operational continuity a difficult task.",
+    "text2": "This is further compounded by the lack of proper tools to provide traceability, real-time visibility, and truly adaptable planning.",
+    "text3": "In this context, PetroTask was born as a response to the urgent need to organize operational chaos and provide a solution capable of centralizing logistics management, even in the most demanding scenarios."
+  },
+  "benefits": {
+    "title": "PetroTask Benefits",
+    "subtitle": "Optimize your logistics operations with our solutions",
+    "items": {
+      "centralization": {
+        "title": "Centralization",
+        "description": "Organize all your logistics operations from a single place. PetroTask allows you to create tasks, establish process phases, and assign responsibilities easily, ensuring clear planning without overlaps."
+      },
+      "collaboration": {
+        "title": "Effective Collaboration",
+        "description": "Supervisors and operators work in sync. Each role has access to specific information and actions, promoting collaboration without creating operational chaos."
+      },
+      "reporting": {
+        "title": "Real-time Reporting",
+        "description": "Reporting field issues has never been easier. Operators can record incidents and supervisors can assign them for resolution without interruptions."
+      }
+    }
+  }
+}
