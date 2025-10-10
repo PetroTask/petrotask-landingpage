@@ -1,5 +1,5 @@
 .footer {
-  background-color: #111;
+  background-color: #0e2220;
   color: #fff;
   padding: 3rem 1rem 1.5rem;
 
@@ -18,7 +18,7 @@
       h3 {
         font-size: 1.1rem;
         margin-bottom: 1rem;
-        color: #008B64;
+        color: #4ECDC4;
         transition: color 0.3s ease;
       }
 
@@ -50,13 +50,13 @@
               position: absolute;
               left: 0;
               top: 0;
-              color: #008B64;
+              color: #4ECDC4;
               font-size: 0.95rem;
               transition: transform 0.3s ease;
             }
 
             &:hover {
-              color: #008B64;
+              color: #4ECDC4;
               text-decoration: underline;
 
               &::before {

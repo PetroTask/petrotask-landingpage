@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  background: var(--gradient-primary);
+  background: linear-gradient(90deg, #008B64, #00C896);
   box-shadow: var(--shadow-md);
   transition: all var(--transition-normal);
 }
@@ -262,7 +262,7 @@
     width: 100%;
     justify-content: center;
   }
-  
+
   .register-button {
     width: 100%;
     justify-content: center;

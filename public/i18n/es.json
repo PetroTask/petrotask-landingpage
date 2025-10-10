@@ -2,81 +2,88 @@
   "contact": {
     "title": "Contacto",
     "name": "Nombre",
+    "namePlaceholder": "Jhon Doe",
     "email": "Correo electrónico",
-    "message": "Inserte su mensaje...",
+    "emailPlaceholder": "jhondoe@gmail.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Inserta aquí tu mensaje",
     "send": "Enviar",
-    "us": "Contáctate con nosotros",
-    "text": "También puedes ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o número telefónico. Estaremos encantados de responder todas tus consultas y brindarte la asistencia que necesites."
+    "us": "Contáctate con Nosotros",
+    "text": "También puedes ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o número telefónico. Estaremos encantados de responder todas tus consultas y brindarte la asistencia que necesitas.",
+    "emailContact": "petrotask@gmail.com",
+    "phoneContact": "+51 956 516 667"
   },
   "faq": {
-    "title": "Preguntas frecuentes",
+    "title": "Preguntas Frecuentes",
     "questions": {
       "q1": {
-        "question": "¿Qué es PetroTask y para quién es?",
-        "answer": "PetroTask es una plataforma que facilita la planificación, asignación y supervisión de actividades logísticas de campo, ideal para empresas que operan en zonas remotas con vehículos y cuadrillas de trabajo."
+        "question": "1. ¿Funciona sin conexión a Internet?",
+        "answer": "Sí. Los técnicos pueden trabajar en modo offline y, cuando recuperan conexión, la app sincroniza automáticamente todas las actualizaciones."
       },
       "q2": {
-        "question": "¿Cómo obtengo visibilidad en tiempo real de mis operaciones?",
-        "answer": "Utilizamos simulaciones de IoT (GPS, estado de maquinaria y condiciones ambientales) que se actualizan periódicamente en el panel de control, mostrando el avance y posibles incidencias en cada tarea."
+        "question": "2. ¿Qué niveles de usuario existen?",
+        "answer": "Contamos con roles de Supervisor, Técnico y Gerente, cada uno con permisos y vistas específicas."
       },
       "q3": {
-        "question": "¿Cómo maneja PetroTask los imprevistos en campo?",
-        "answer": "PetroTask detecta desviaciones (clima, fallas mecánicas, retrasos) y ofrece una interfaz rápida para reprogramar tareas y notificar automáticamente a los equipos afectados."
+        "question": "3. ¿Cómo se gestionan las alertas?",
+        "answer": "Puedes configurar alertas automáticas por condiciones de seguridad, retrasos o incidencias. Se notifican por push y quedan registradas."
       },
       "q4": {
-        "question": "¿PetroTask se adapta a mi tamaño de operación?",
-        "answer": "Sí, nuestra arquitectura modular escala desde flotas y equipos pequeños hasta implementaciones más grandes sin afectar el rendimiento ni la usabilidad."
+        "question": "4. ¿Puedo exportar reportes?",
+        "answer": "Sí. Los reportes pueden exportarse en PDF y Excel, con filtros por fechas, equipos y estados."
       },
       "q5": {
-        "question": "¿En cuánto tiempo puedo iniciar un piloto?",
-        "answer": "Puedes desplegar un piloto funcional en menos de 2 semanas y comenzar a obtener datos de tus operaciones desde el primer mes."
+        "question": "5. ¿Se puede integrar con otros sistemas?",
+        "answer": "Disponemos de API e integraciones. También evaluamos integraciones a medida según tus sistemas existentes."
+      },
+      "q6": {
+        "question": "6. ¿Hay formación para el equipo?",
+        "answer": "Incluimos capacitación de onboarding y materiales de soporte. Ofrecemos sesiones adicionales bajo demanda."
       }
     }
   },
   "footer": {
-    "links": "Enlaces",
-    "us": "Sobre nosotros",
+    "networks": "Nuestras Redes",
+    "sections": "Secciones",
+    "what": "¿Qué es PetroTask?",
+    "why": "¿Por qué nace PetroTask?",
     "functions": "Funcionalidades",
     "benefits": "Beneficios",
-    "how": "¿Cómo funciona?",
-    "faq": "Preguntas frecuentes",
+    "plans": "Planes",
+    "faq": "FAQ",
     "contact": "Contacto",
-    "email": "Correo: ",
-    "telf": "Teléfono: ",
-    "follow": "Síguenos",
-    "solution": "Tu solución logística rápida, simple y eficiente."
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "emailContact": "SwiftPort@gmail.com",
+    "phoneContact": "+51 956 516 667"
   },
   "functions": {
-    "title": " Funcionalidades de PetroTask",
-    "subtitle": "Soluciones potentes para optimizar tus operaciones logísticas",
+    "title": "Funcionalidades de PetroTask",
     "list": {
       "item1": {
-        "title": "Planificación inteligente",
-        "description": "Crea tareas, define fases y agrupa actividades."
+        "title": "Gestión de proyectos y tareas",
+        "description": "Crea tareas con descripción, prioridad y recursos, asigna a técnicos a equipos en un par de clicks"
       },
       "item2": {
-        "title": "Asignación efectiva",
-        "description": "Distribuye tareas según disponibilidad real de personal y recursos."
+        "title": "Reprogramación en tiempo real",
+        "description": "Ajusta el plan ante imprevistos y reordena prioridades al instante."
       },
       "item3": {
-        "title": "Monitoreo en tiempo real",
-        "description": "Seguimiento por GPS e integración con alertas del clima o fallos."
+        "title": "Modo offline y sincronización automática",
+        "description": "Los técnicos trabajan sin conexión; los datos se sincronizan cuando hay red."
       },
       "item4": {
-        "title": "Reprogramación",
-        "description": "Permite modificar horarios y tareas logísticas en tiempo real."
+        "title": "Alertas automáticas y notificaciones push",
+        "description": "Configura condiciones que disparan alertas y recibe notificaciones de seguridad."
       },
       "item5": {
-        "title": "Gestión de incidencias",
-        "description": "Reportes directos desde campo con opción de validación y asignación."
+        "title": "Dashboards y reportes",
+        "description": "Visibilidad completa del estado de tareas, métricas de cumplimiento y reportes exportables."
       },
       "item6": {
-        "title": "Visibilidad de desempeño",
-        "description": "Visibilidad de tareas, bloqueos, tiempos muertos y cumplimiento."
-      },
-      "item7": {
-        "title": "Flexibilidad operativa",
-        "description": "Solicitudes de reprogramación y actualizaciones de estado en terreno."
+        "title": "Seguridad y trazabilidad",
+        "description": "Historial completo de operaciones con evidencias y control de accesos."
       }
     }
   },
@@ -114,74 +121,93 @@
     }
   },
   "presentation": {
-    "callToAction": "Transforma tus Operaciones Logísticas con Tecnología Inteligente",
-    "demoButton": "Prueba Gratuita",
-    "tagline": "El Futuro de la Gestión Logística",
-    "description": "Optimiza tus operaciones con seguimiento en tiempo real, análisis predictivo y automatización inteligente. Experimenta el poder de la gestión logística de próxima generación.",
-    "subDescription": "Confiado por empresas líderes en los sectores minero, petrolero y energético"
+    "callToAction": "Sé uno de los primeros en usar este servicio",
+    "demoButton": "Solicita una demo",
+    "tagline": "Transforma la operación en campo.",
+    "description": "PetroTask",
+    "subDescription": "Planifica, asigna y supervisa tareas en tiempo real"
   },
   "pricing": {
-    "title": "Elegí tu plan",
-    "subtitle": "Los mejores planes al mejor precio",
+    "title": "Elige tu plan",
     "plans": {
       "basic": {
         "title": "Plan Básico",
-        "features": {
-          "f1": "Hasta 50 tareas/mes",
-          "f2": "Reportes limitados",
-          "f3": "1 usuario supervisor",
-          "f4": "Soporte"
-        },
-        "price": "$50"
+        "description": "Ideal para equipos pequeños que quieren orden y trazabilidad básica.",
+        "price": "$19/mes",
+        "features": [
+          "Hasta 10 usuarios",
+          "Crear y asignar tareas; prioridad y recursos",
+          "Inicio/fin de tarea y adjuntar fotos",
+          "Dashboard básico",
+          "Soporte por correo"
+        ],
+        "button": "Obtener Plan"
       },
       "pro": {
-        "title": "Plan Pro",
-        "features": {
-          "f1": "Hasta 500 tareas/mes",
-          "f2": "Reportes limitados",
-          "f3": "2 usuario supervisor",
-          "f4": "Soporte"
-        },
-        "price": "$100"
+        "title": "Plan Profesional",
+        "recommended": "¡Recomendado!",
+        "description": "Eficiencia avanzada para equipos en crecimiento. Incluye todo lo del Básico, más:",
+        "price": "$49/mes",
+        "features": [
+          "Hasta 50 usuarios",
+          "Reprogramación en tiempo real",
+          "Modo offline completo + sincronización automática",
+          "Notificaciones push y alertas configurables",
+          "Dashboard avanzado con mapas y métricas",
+          "Reportes exportables (PDF / Excel)",
+          "Soporte por chat y correo"
+        ],
+        "button": "Obtener Plan"
       },
       "enterprise": {
-        "title": "Plan Empresarial",
-        "features": {
-          "f1": "Tareas ilimitadas",
-          "f2": "Integración con ERP",
-          "f3": "Usuarios ilimitados",
-          "f4": "Soporte prioritario"
-        },
-        "price": "$250"
+        "title": "Plan Corporativo",
+        "description": "Potencia y control para operaciones a gran escala. Incluye todo lo del Profesional, más:",
+        "price": "$99/mes",
+        "features": [
+          "Usuarios ilimitados",
+          "Personalización y branding",
+          "Acceso a API e integraciones",
+          "Módulos avanzados de seguridad y auditoría",
+          "Capacitación inicial y soporte prioritario 24/7",
+          "SLA y despliegue on-premise o privado si aplica"
+        ],
+        "button": "Obtener Plan"
       }
     }
   },
   "what": {
     "title": "¿Qué es PetroTask?",
-    "text1": "PetroTask es una solución integral de transformación digital diseñada para optimizar la planificación, coordinación y supervisión de procesos logísticos en zonas operativas de difícil acceso o alta complejidad, como campos petroleros, faenas mineras o instalaciones energéticas remotas.",
-    "text2": "A través de la plataforma PetroTask permite a las empresas gestionar de forma centralizada todas las tareas logísticas: desde la creación y asignación de actividades, hasta su seguimiento en terreno. Esta herramienta combina interfaces intuitivas con tecnologías como IoT simulado, monitoreo en tiempo real y tableros colaborativos, ofreciendo una visibilidad completa de la operación."
+    "text1": "PetroTask es una plataforma digital diseñada para optimizar la gestión de tareas y procesos en el sector petrolero. Con una interfaz intuitiva y herramientas especializadas, facilita la planificación, seguimiento y control de operaciones en todas las fases de la cadena logística."
   },
   "why": {
     "title": "¿Por qué nace PetroTask?",
-    "text1": "'Las industrias que operan en zonas remotas como la minera, petrolera o energética enfrentan diariamente una serie de desafíos logísticos complejos. Entornos hostiles e impredecibles, condiciones climáticas cambiantes, equipos técnicos expuestos a fallos, y la rotación constante del personal hacen que mantener la continuidad operativa sea una tarea difícil.",
-    "text2": "A esto se suma la falta de herramientas adecuadas para ofrecer trazabilidad, visibilidad en tiempo real y una planificación realmente adaptable.",
-    "text3": "En este contexto nace PetroTask, como respuesta a la necesidad urgente de ordenar el caos operativo y ofrecer una solución capaz de centralizar la gestión logística, incluso en los escenarios más exigentes."
+    "text1": "La industria petrolera enfrenta retos constantes: proyectos de gran escala, equipos distribuidos y la necesidad de precisión en cada etapa. PetroTask nace como respuesta a estas demandas, ofreciendo una solución tecnológica que conecta equipos, centraliza información y mejora la eficiencia operativa."
   },
   "benefits": {
-    "title": "Beneficios de PetroTask",
-    "subtitle": "Optimiza tus operaciones logísticas con nuestras soluciones",
+    "title": "Beneficios",
     "items": {
-      "centralization": {
-        "title": "Centralización",
-        "description": "Organiza todas tus operaciones logísticas desde un solo lugar. PetroTask permite crear tareas, establecer fases del proceso y asignar responsables fácilmente, asegurando una planificación clara y sin solapamientos."
+      "supervisors": {
+        "title": "Para Supervisores",
+        "points": [
+          "Crear, asignar y reprogramar tareas",
+          "Monitorizar todas las tareas desde el dashboard",
+          "Configurar alertas y ver el historial de respuestas"
+        ]
       },
-      "collaboration": {
-        "title": "Colaboración Efectiva",
-        "description": "Supervisores y operarios trabajan en sincronía. Cada rol tiene acceso a la información y acciones específicas, promoviendo la colaboración sin generar caos operativo."
+      "technicians": {
+        "title": "Para Técnicos",
+        "points": [
+          "Acceso a tareas sin conexión",
+          "Registrar inicio/fin y adjuntar fotos como evidencia",
+          "Reportar incidencias desde el campo y recibir notificaciones push"
+        ]
       },
-      "reporting": {
-        "title": "Reportes en Tiempo Real",
-        "description": "Reportar problemas desde el campo nunca fue tan fácil. Los operarios pueden registrar incidencias y los supervisores asignarlas para su resolución sin interrupciones."
+      "managers": {
+        "title": "Para Gerentes",
+        "points": [
+          "Generar reportes personalizados de productividad",
+          "Acceder al historial completo con evidencias para verificaciones y cumplimiento"
+        ]
       }
     }
   }

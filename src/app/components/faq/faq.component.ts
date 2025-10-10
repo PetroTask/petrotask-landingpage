@@ -31,6 +31,10 @@ export class FaqComponent {
     {
       question: 'faq.questions.q5.question',
       answer: 'faq.questions.q5.answer'
+    },
+    {
+      question: 'faq.questions.q6.question',
+      answer: 'faq.questions.q6.answer'
     }
   ];
 

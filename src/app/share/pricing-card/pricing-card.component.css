@@ -1,17 +1,15 @@
 .pricing-card {
-  background: linear-gradient(145deg, #ffffff, #f8f8f8);
-  border-radius: 16px;
+  background: white;
+  border-radius: 12px;
   padding: 30px;
-  width: 300px;
+  width: 100%;
   color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(230, 128, 26, 0.1);
 }
 
 .pricing-card:hover {
@@ -30,15 +28,38 @@
 }
 
 .plan-title {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #008B64;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2D3142;
   font-weight: 700;
   position: relative;
   width: 100%;
   text-align: center;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.plan-description {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.plan-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2D3142;
+  margin-bottom: 20px;
+}
+
+.recommended-badge {
+  background: #4ECDC4;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .plan-features {
@@ -51,12 +72,20 @@
 }
 
 .plan-features li {
-  padding: 12px 0;
+  padding: 8px 0;
   margin-bottom: 8px;
   display: flex;
   align-items: flex-start;
   color: #555;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+}
+
+.plan-features li::before {
+  content: "✓";
+  color: #4ECDC4;
+  font-weight: bold;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 
 .plan-features li:last-child {
@@ -64,18 +93,17 @@
 }
 
 .price-btn {
-  background-color: #008B64;
+  background-color: #FF6B35;
   color: white;
   font-weight: bold;
   padding: 12px 30px;
   border: none;
-  border-radius: 30px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
   transition: all 0.3s ease;
-  margin-top: 15px;
+  margin-top: 20px;
   width: 100%;
-  box-shadow: 0 4px 15px rgba(230, 128, 26, 0.3);
 }
 
 .price-btn:hover {
@@ -89,11 +117,11 @@
     width: 280px;
     padding: 25px;
   }
-  
+
   .plan-title {
     font-size: 24px;
   }
-  
+
   .plan-features {
     font-size: 15px;
   }

@@ -36,7 +36,6 @@
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .funcionalidades-subtitle {
@@ -64,13 +63,13 @@
 }
 
 .functions-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 20px 0;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Estilos responsivos */
@@ -84,7 +83,7 @@
   .funcionalidades-title {
     font-size: 2.5rem;
   }
-  
+
   .funcionalidades-subtitle {
     font-size: 1.1rem;
   }
@@ -94,21 +93,21 @@
   .funcionalidades-petrotask-container {
     padding: 40px 0;
   }
-  
+
   .funcionalidades-title {
     font-size: 2.2rem;
     margin-bottom: 15px;
   }
-  
+
   .funcionalidades-subtitle {
     font-size: 1rem;
     margin-bottom: 30px;
   }
-  
+
   .funcionalidades-title::after {
     width: 60px;
   }
-  
+
   .functions-container {
     gap: 20px;
   }
@@ -118,19 +117,19 @@
   .funcionalidades-petrotask-container {
     padding: 30px 0;
   }
-  
+
   .content-wrapper {
     padding: 0 10px;
   }
-  
+
   .funcionalidades-title {
     font-size: 1.8rem;
   }
-  
+
   .funcionalidades-subtitle {
     font-size: 0.9rem;
   }
-  
+
   .functions-container {
     gap: 15px;
   }

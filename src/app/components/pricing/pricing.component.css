@@ -1,7 +1,7 @@
 .pricing-section {
   text-align: center;
-  padding: 40px 20px;
-  background-color: #fff;
+  padding: 60px 20px;
+  background-color: #008B64;
   font-size: 30px;
 }
 
@@ -9,19 +9,21 @@
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 8px;
+  color: #4ECDC4;
 }
 
 .pricing-subtitle {
   font-size: 20px;
   margin-bottom: 32px;
-  color: #444;
+  color: white;
   padding-top: 0px;
   padding-bottom:30px ;
 }
 
 .pricing-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
