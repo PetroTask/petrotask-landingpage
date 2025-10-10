@@ -12,24 +12,28 @@
     "title": "Frequently Asked Questions",
     "questions": {
       "q1": {
-        "question": "What types of companies can use PetroTask?",
-        "answer": "PetroTask is designed for any company operating in the port sector, from small shipping companies to large logistics operators."
+        "question": "1. Does it work without Internet?",
+        "answer": "Yes. Technicians can work offline and once connectivity is restored, the app automatically syncs all updates."
       },
       "q2": {
-        "question": "How long does implementation take?",
-        "answer": "Basic implementation can be completed in as little as 2 weeks, depending on the complexity of your operation."
+        "question": "2. What user levels exist?",
+        "answer": "We provide Supervisor, Technician and Manager roles, each with specific permissions and views."
       },
       "q3": {
-        "question": "Do you offer technical support?",
-        "answer": "Yes, we offer 24/7 technical support and team training."
+        "question": "3. How are alerts managed?",
+        "answer": "You can configure automatic alerts for safety conditions, delays or incidents. They are sent via push and remain logged."
       },
       "q4": {
-        "question": "Do you offer integrations with other systems?",
-        "answer": "Yes, PetroTask integrates with major ERP, CRM, and warehouse management systems through APIs. We also offer custom integrations for proprietary systems."
+        "question": "4. Can I export reports?",
+        "answer": "Yes. Reports can be exported in PDF and Excel, with filters by dates, teams and statuses."
       },
       "q5": {
-        "question": "How do I get started with PetroTask?",
-        "answer": "You can deploy a functional pilot in less than 2 weeks and start gathering data from your operations within the first month."
+        "question": "5. Can it integrate with other systems?",
+        "answer": "We provide API and integrations. We also assess custom integrations according to your existing systems."
+      },
+      "q6": {
+        "question": "6. Is training available for the team?",
+        "answer": "We include onboarding training and support materials. Additional sessions are available on demand."
       }
     }
   },
@@ -114,45 +118,57 @@
     }
   },
   "presentation": {
-    "callToAction": "Transform Your Logistics Operations with Smart Technology",
-    "demoButton": "Start Free Trial",
-    "tagline": "The Future of Logistics Management",
-    "description": "Streamline your operations with real-time tracking, predictive analytics, and intelligent automation. Experience the power of next-generation logistics management.",
-    "subDescription": "Trusted by leading companies in mining, oil, and energy sectors"
+    "callToAction": "Be one of the first to use this service",
+    "demoButton": "Request a demo",
+    "tagline": "Transform field operations.",
+    "description": "PetroTask",
+    "subDescription": "Plan, assign and supervise tasks in real time"
   },
   "pricing": {
     "title": "Choose your plan",
-    "subtitle": "The best plans at the best price",
     "plans": {
       "basic": {
         "title": "Basic Plan",
-        "features": {
-          "f1": "Up to 50 tasks/month",
-          "f2": "Limited reports",
-          "f3": "1 supervisor user",
-          "f4": "Support"
-        },
-        "price": "$50"
+        "description": "Ideal for small teams that need order and basic traceability.",
+        "price": "$19/mo",
+        "features": [
+          "Up to 10 users",
+          "Create and assign tasks; priority and resources",
+          "Task start/finish and attach photos",
+          "Basic dashboard",
+          "Email support"
+        ],
+        "button": "Get Plan"
       },
       "pro": {
         "title": "Pro Plan",
-        "features": {
-          "f1": "Up to 500 tasks/month",
-          "f2": "Limited reports",
-          "f3": "2 supervisor users",
-          "f4": "Support"
-        },
-        "price": "$100"
+        "recommended": "Recommended!",
+        "description": "Advanced efficiency for growing teams. Includes everything from Basic, plus:",
+        "price": "$49/mo",
+        "features": [
+          "Up to 50 users",
+          "Real-time rescheduling",
+          "Full offline mode + auto sync",
+          "Push notifications and configurable alerts",
+          "Advanced dashboard with maps and metrics",
+          "Exportable reports (PDF / Excel)",
+          "Chat and email support"
+        ],
+        "button": "Get Plan"
       },
       "enterprise": {
         "title": "Enterprise Plan",
-        "features": {
-          "f1": "Unlimited tasks",
-          "f2": "ERP integration",
-          "f3": "Unlimited users",
-          "f4": "Priority support"
-        },
-        "price": "$250"
+        "description": "Power and control for large-scale operations. Includes everything from Pro, plus:",
+        "price": "$99/mo",
+        "features": [
+          "Unlimited users",
+          "Branding and customization",
+          "API access and integrations",
+          "Advanced security and auditing modules",
+          "Initial training and 24/7 priority support",
+          "SLA and on‑prem/private deployment if needed"
+        ],
+        "button": "Get Plan"
       }
     }
   },

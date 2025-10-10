@@ -3,12 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 280px;
+  width: 100%;
   min-height: 220px;
   background-color: #ffffff;
-  border-radius: 16px;
+  border: 2px solid #4ECDC4;
+  border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
   margin: 10px;
 }
@@ -20,7 +20,7 @@
 }
 
 .function-title {
-  --accent-color: #008B64; /* Color por defecto, será sobreescrito por el input */
+  --accent-color: #4ECDC4; /* Color por defecto, será sobreescrito por el input */
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -47,7 +47,7 @@
   font-size: 15px;
   line-height: 1.5;
   text-align: center;
-  color: #666;
+  color: #555;
   margin-top: 10px;
 }
 
@@ -65,11 +65,11 @@
     min-height: 180px;
     padding: 15px;
   }
-  
+
   .function-title {
     font-size: 18px;
   }
-  
+
   .function-text {
     font-size: 14px;
   }

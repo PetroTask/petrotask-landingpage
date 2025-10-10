@@ -38,7 +38,7 @@ import {LanguageSwitcherComponent} from './components/language-switcher/language
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'petrotask-landing-page';
+  title = 'petrotask';
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['en', 'es']);
     this.translate.setDefaultLang('en');

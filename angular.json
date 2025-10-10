@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "swiftport-landing-page": {
+    "petrotask": {
       "projectType": "application",
       "schematics": {},
       "root": "",
